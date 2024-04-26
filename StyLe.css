@@ -1,0 +1,245 @@
+*{ margin: 0;
+    padding: 0;
+        font-family: sans-serif;
+        
+    }
+    body{
+    background-color: #07123F;
+    padding: 20px;
+    }
+
+    header{
+        max-width: 1780px;
+        min-height: 150px;
+        margin: 0 auto;
+        border-radius: 22px 22px 0 0;
+        /* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#deefff+15,98bede+87 */
+    background: linear-gradient(to bottom,  #deefff 15%,#98bede 87%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    
+        }
+
+        .icono{
+            width: 440px;
+        height: 130px;
+    }
+     #Program{
+        width: 330px;
+        float: left;
+        margin-top: 13px;
+margin-left: 15px;
+animation: 1s entradalogo 1;
+            
+    }
+
+    #PROGRAMA{
+        max-width: 1780px;
+        min-height: 60px;
+        background-color: #07123F ;
+        margin: 0 auto;
+    }
+
+    #PROGRAMA ul{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
+    #PROGRAMA a{
+        color: #ffffff;
+        display: block;
+        padding: 20px;
+        text-decoration: none;
+        background-color: #07123F;
+        font-size: 20px;
+    }
+    #PROGRAMA a:hover{
+        background-color: #14298a;
+    }
+    #PROGRAMA  ul ul{
+        display: none;
+        position: absolute;
+        min-width: 139px;
+        margin: 0 auto;
+    }
+
+    #PROGRAMA ul li:hover ul{
+        display: block;
+            }
+   
+#menuu{
+   width: 300px;
+   min-height: 2100px;
+   background-color:#56b3ff;
+   float: left;
+}
+#menuu ul{
+list-style: none;
+padding: 8px;
+}
+#menuu a{
+display: block;
+color:black;
+background-color: white;
+padding:13px;
+text-decoration: none;
+margin-bottom: 6px;
+border-radius: 6px;
+
+}
+
+#menuu a:hover img{
+animation: 2s rotacion 1;
+}
+
+#menuu a:hover{
+  /* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#deefff+15,98bede+87 */
+background: linear-gradient(to bottom,  #deefff 15%,#98bede 87%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+   }
+.icon{
+height: 25px;
+}
+
+
+
+            #Program1{
+                max-width: 1780px;
+        min-height: 2100px;
+        background-color: #F7F7F7 ;
+        margin: 0 auto; 
+        
+            }
+            #Program1 p{
+                margin-bottom: 10px;
+        text-align: justify;
+        font-size: 20px;
+        margin-left: 15px;
+        margin-right: 15px;
+            }
+            #Program1 h2{
+            font-size: 35px;
+            margin-top: 25px;
+            margin-bottom: 25px;
+            font-size: 25px;
+            padding:10px ;
+}
+@keyframes rotacion {
+   0%{
+       transform: rotate(360deg);
+   }
+}
+
+.know{
+
+   margin-top: -24px;
+   margin-left: 35px;
+}
+h1 {
+    text-align: center;
+    margin-top: 5x;
+
+        }
+        .afili {
+            height: 375px;
+            width: 400px;
+            margin-left: 160px;
+            
+        }
+        p {
+            font-size: 25px;
+        }
+       .love{
+        margin-top: -300px;
+        margin-left: 900px;
+       }
+       .Traspaso1 {
+        height: 400px;
+            width: 400px;
+           margin-left: 900px;
+        
+       }
+       .traspaso {
+        margin-top: -210px;
+        margin-left: 400px;
+       }
+       .Recaudo1 {
+        height: 270px;
+        width: 400px;
+        margin-top: 140px;
+        margin-left: 160px;
+
+       }
+       .Recaudo{
+        margin-top: -215px;
+        margin-left: 910px;
+       }
+       .Novedades1 {
+        height: 280px;
+        width: 400px;
+        margin-left: 850px;
+margin-top: 100px;
+      
+       }
+       .Novedades {
+        margin-top: -220px;
+        margin-left: 400px;
+       }
+       .Fusiones1 {
+        height: 400px;
+        width: 450px;
+        margin-left: 170px;
+        margin-top: 20px;
+     
+       }
+       .Fusiones {
+        margin-top: -210px;
+        margin-left: 990px;
+       }
+
+       footer{
+        background-color: #008AAB;
+    clear: both;
+    max-width: 1780px;
+    margin: 0 auto;
+    border-radius: 0 0 20px 20px;
+    text-align: center;
+    color: white;
+    padding: 50px;
+    box-sizing: border-box;
+
+    }
+
+     /*KEYFRAMES*/
+@keyframes entradalogo {
+    0% {
+  transform: translateY(-200px);
+    }
+     } 
+     .insta{
+        width: 100px;
+    height: 100px;
+    margin-left:-1200px ;
+     }
+
+     .face{
+        width: 100px;
+        height: 100px;
+        margin-left: 50px;
+        
+     }
+
+     .link{
+        width: 100px;
+        height: 100px;
+        margin-left: 50px;
+     }
+
+.ittem{
+width: 1753px;
+margin-left: 3px;
+      
+}
+    
+#bann{
+max-width: 1780px;
+
+}
+     

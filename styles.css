@@ -1,0 +1,221 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+body{
+    background-color: #07123F;
+    padding: 20px;
+    
+}
+/*CABECERA*/
+header{
+    max-width: 1300px;
+    min-height: 150px;
+    margin: 0 auto;  
+    border-radius: 22px 22px 0 0;
+    /* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#deefff+15,98bede+87 */
+background: linear-gradient(to bottom,  #deefff 15%,#98bede 87%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+    }
+/*CABECERA*/
+    #logo{
+        width: 330px;
+        float: left;
+        margin-top: 13px;
+        margin-left: 15px;
+        animation: 1s entradalogo 1;
+    }
+
+    #logo img:hover{
+        filter: blur(3px);
+
+    }
+    .ico{
+        width: 440px;
+        height: 130px;
+    
+    }
+
+    #menu1{
+        max-width: 1300px;
+        min-height: 60px;
+        background-color: #07123F ;
+        margin: 0 auto;
+
+    }
+#menu1 ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+#menu1 a{
+    color: #ffffff;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    background-color: #07123F;
+    font-size: 20px;
+}
+#menu1 a:hover{
+    background-color:  #14298a;
+}
+#menu1 ul ul{
+    display: none;
+    position: absolute; 
+     min-width: 139px;
+    margin: 0 auto;
+}
+
+
+#menu1 ul li:hover ul{
+    display: block;
+}
+
+#conteent{
+    max-width: 1300px;
+    min-height: 700px;
+    background-color: #ffffff;
+    margin: 0 auto;
+
+
+
+}   
+ #menuu{
+    width: 300px;
+    min-height: 700px;
+    background-color:#56b3ff;
+    float: left;
+}
+#menuu ul{
+list-style: none;
+padding: 8px;
+}
+#menuu a{
+display: block;
+color:black;
+background-color: white;
+padding:13px;
+text-decoration: none;
+margin-bottom: 6px;
+border-radius: 6px;
+
+}
+
+#menuu a:hover img{
+animation: 2s rotacion 1;
+}
+
+#menuu a:hover{
+   /* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#deefff+15,98bede+87 */
+background: linear-gradient(to bottom,  #deefff 15%,#98bede 87%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    }
+.icon{
+height: 25px;
+}
+
+
+    #conteent h2{
+margin-bottom: 20px;
+font-size:30px;
+display: inline-block;
+    }
+
+    .flujo{
+    display: flex;
+    justify-content: center;
+    }
+    #conteent p{
+
+        margin-bottom: 10px;
+        text-align: justify;
+        font-size: 20px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .blue{
+        color: #07123F;
+       padding: 15px;
+     
+
+    }
+    .azul{
+      color: #008AAB;
+      margin-top: 16px;
+
+    }
+    .datos{
+        width:890px;
+        height: 200px;
+       margin-left:70px ;
+       margin-top: 70px;
+       margin-bottom: 10px;
+    }
+    b{
+        color: #008AAB;
+    }
+
+    footer{
+    background-color: #008AAB;
+    clear: both;
+    max-width: 1300px;
+    margin: 0 auto;
+    border-radius: 0 0 20px 20px;
+    text-align: center;
+    color: white;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+/*KEYFRAMES*/
+@keyframes entradalogo {
+  0% {
+transform: translateY(-200px);
+   } 
+}
+
+.insta{
+    width: 80px;
+height:80px;
+margin-left:-500px ;
+ }
+
+ .face{
+    width: 80px;
+    height: 80px;
+    margin-left: 50px;
+    
+ }
+
+ .link{
+    width: 80px;
+    height: 80px;
+    margin-left: 50px;
+ }
+ .ittem{
+    width: 1300px;
+
+ }
+
+ #bann{
+    width: 1300px;
+    min-height: 130px;
+
+}
+
+.boton{
+    height: 60px;
+    margin: 60px;
+}
+ @keyframes rotacion {
+    0%{
+        transform: rotate(360deg);
+    }
+ }
+
+ .know{
+
+    margin-top: -24px;
+    margin-left: 35px;
+ }
